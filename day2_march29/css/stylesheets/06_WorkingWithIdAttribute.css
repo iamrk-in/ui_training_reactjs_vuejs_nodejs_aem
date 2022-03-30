@@ -1,0 +1,26 @@
+body {
+    background-color: lightcyan;
+}
+
+p {
+    font-size: 16px;
+    color: rebeccapurple;
+}
+
+li {
+    text-decoration: underline;
+    font-size: 14px;
+}
+
+#para_style {
+    color: red;
+}
+
+#style_para {
+    background-color: blueviolet;
+}
+
+#list_item {
+    text-decoration: line-through;
+    color: red;
+}
