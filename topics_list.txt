@@ -1,0 +1,72 @@
+day1:
+
+html
+1. creating html structure
+2. displaying the raw data
+3. applying the formatting elements to html content: h1 - h6, p, strong, etc., 
+4. working with attributes, applying the attributes to html elements, 
+5. creating the lists: order list, unorder list and definition list
+6. creating the tables and displaying the data or organizing the data
+7. working with images & displaying
+8. creating the sample page
+9. creating the form with elements of, input: text, email, password, url, radio, checkbox, etc.,
+10. working with media objects., audio & video
+11. implementing the semantic elements
+
+css
+1. started with css, introduction
+
+
+day2: 
+
+css
+1. creating the sample html page
+2. applying the inline styles
+3. applying the embedded styles
+4. applying the external styles
+5. understanding the concept of custom styling: applying class attribute
+6. understanding the concept of custom styling: applying id attribute
+7. applying the colors: name, numeric & hexadecimal
+8. creating the sample web page with css & html, using multiple properties
+9. creating the blog page design with horizontal & vertical
+10. understanding about display property and addiional properties
+11. understanding about the position propertis and additional properties
+12. created the sample page using flex box, display: flex property
+
+day3: 
+
+css
+1. create one more example or concept of grid layout
+2. applyed the hovering effects to buttons
+3. aplyed the hovering effects to images
+4. created the menu bar with icons with css properties
+
+bootstrap
+1. started with the concept of bootstrap / introduction
+2. created the fixed layout
+3. created the fluid layout
+4. create the breakpoint layout
+5. creted the multi column layout with content
+6. create the sample or common web page layout
+7. implemented the concept of typography
+
+day4: 
+
+bootstrap
+1. cont., with the concept of typography, 
+2. created the table layouts & its classes
+3. created the lists & list groups
+4. create the forms, different form layouts, 
+5. form elements & its appearance implemented
+6. created the custom forms
+7. implemented the input groups
+8. created the buttons & its dropdowns
+9. added the buttons & its styles
+10. created the  button groups
+11. displayed the images & its alignments
+12. created the responsive videos displaying with ratios
+13. created the dfferent ways of cards designing
+14. create the image overlay
+15. implemented the media objects & its alignments
+16. create the basic navigations
+
