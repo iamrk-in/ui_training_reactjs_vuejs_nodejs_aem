@@ -1,0 +1,57 @@
+Create the Sample Html Structure with Proper Indentation
+Display the Content of any Company, Service, Product with Html Formatting Elements, 
+Apply the Lists and Links to the Content
+
+Display the images with all attributes and even give the link
+Create the table(s) for services, products, person examples with links, images in side it
+Create the form with all inputs where user can able apply for job
+Display the media objects of video and audio files
+
+Upload all the files along with folders in to created git repository
+
+Apply the styles: 
+	1. Inline
+	2. Embedded
+	3. External 
+	
+to Html content., create Services Page, Products Page, Register Form
+
+Apply the Colors to Content in 3 different ways
+Create the Code to Apply the Custom Styles to Content: 
+	1. Class
+	2. Id  
+
+Create a Service, Product, with group of pages a Website with Html & Css in Responsive?
+Showcase the Gallery with Products: Headings, Descriptions, View & AddToCart Buttons?
+Research & Create some sample examples of Selectors and Applying the Properties:  (space), >, +, ~
+Create the WebPage with Form, Apply the styles and Attributes Styling: [], [=], [~=], [*=]
+Find out some Psuedo Class's, Apply those to Content with Sample Examples
+
+Create the 3 different layouts: 1. Fixed, 2. Fluid, & 3. Breakpoints
+Create the sample layout
+Display the Data in Table
+Display the Lists & List Groups
+
+In all assignments, use the respective classes of bootstrap
+
+create the list groups ex., services, products, 
+show case the list of items with list groups ex., services, products, by applying the classes of icons
+apply the checkboxes & radio buttons to list groups
+create the forms: horizontal, vertical, inline, with sample login
+implement the registration form with all fields in horizontal form
+create the button & its styles
+create the dropdown buttons
+create the input groups
+create the combination of buttons, dropdowns with forms & input groups
+display the images with different effects
+display the images and content alignments
+implement the concept of cards with header, footer, body, and display the content
+display the videos in different ratios
+create the image overlay
+
+create the blog page with group of articles info., which includes the headings, sub headings, images, paragraphs, links, 
+implement the concept of navigations & its different layouts
+create the responsive navigation with icons effects & dropdowns
+create a single page template showing the any company information with background images, headings, listings, footer content, etc., 
+
+
