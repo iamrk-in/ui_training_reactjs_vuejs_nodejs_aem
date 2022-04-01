@@ -54,4 +54,17 @@ implement the concept of navigations & its different layouts
 create the responsive navigation with icons effects & dropdowns
 create a single page template showing the any company information with background images, headings, listings, footer content, etc., 
 
+create the normal navigations
+create the tab based navigations
+create the pills based navigations
+create the navigations with icons (tabs & pills)
+create the navigation with dropdowns - tabs & pills based with icons
+create the responsive navigations - fixedTop, fixedBottom - apply icons, and with dropdowns, additionally show the form (search & login), and right hand side dropdown menu
+create the custom login form on click & hover effects in responsive navigations 
+display the concepts of breadcrumb, pagination, progressbars, badges
+create the HtmlBoilerplate,
+check the code of Html with HtmlValidator
+check the code of Css with CssValidator
+create the the concept of 24-GridColumn with Images
+
 

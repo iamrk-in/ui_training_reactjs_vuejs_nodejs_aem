@@ -70,3 +70,17 @@ bootstrap
 15. implemented the media objects & its alignments
 16. create the basic navigations
 
+
+day5: 
+
+bootstrap
+1. created the navigations
+2. responsive navigations with form, icons & dropdowns
+3. creating the hover effect dropdown navigations
+4. creating the accordions
+5. creating the misc., components like., pagination, progressbars, etc., 
+6. creating the boiler plate with html,
+7. creating the 24 column grid system
+8. creating the shopping cart view layout.,
+
+
