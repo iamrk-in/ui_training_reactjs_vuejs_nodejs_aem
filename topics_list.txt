@@ -84,3 +84,80 @@ bootstrap
 8. creating the shopping cart view layout.,
 
 
+day6: 
+
+bootstrap
+1. cont., with rest of the shopping cart view layout design., 
+2. clarifying doubts, if any about html, css, and bootstrapp
+
+javascript: 
+2. starting or introduction of javascript, its use in web development
+3. javascript syntax, implementations
+4. displaying out, discusing about identifiers, keywords, 
+5. about data types
+6. comments
+7. declaring variables: let, const
+8. operators
+9. decision making statements
+10. loop statements
+11. arrays
+12. functions
+13. working with nodes
+
+day7: 
+
+javascript:
+1. selectors
+2. styling
+3. get and set attributes
+4. manipulation
+5. navigation
+6. windows 
+7. screen
+8. location
+9. history
+10. navigator
+11. dialog boxes
+12. timer
+
+
+day8: 
+
+javascript and json:
+1. class & objects
+2. data, math, strings - builtin objects
+3. type conversions
+4. event listeners
+5. event propagation
+6. borrowing methods
+7. hoisting behavior
+8. callback functions
+9. closures
+10. promises
+11. strict mode
+12. json
+
+day9: 
+
+javascript and ajax:
+1. error handling
+2. form validation
+3. cookies
+4. ajax requests
+5. es6
+6. some practical examples of javascript
+
+jquery:
+7. jquery introduction, syntax,
+8. selectors, events
+
+day10:
+
+jquery: 
+1. jquery effects (show / hide, fade, slide etc., )
+2. jquery manipulation (get / set, insert, reemove, css class, style properties)
+3. jquery traversing, ancestors, descendants, siblings, 
+4. ajax, load, get, post, no conflict
+5. jquery practical examples
+6. creating the dynamic actions using bootstrap, javascript, jquery 
+7. debugging techniques of javascript
