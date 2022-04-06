@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Java Script Concepts</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="#">
+        <!-- bootstrap -->
+        <script src="customScripts.js" type="text/javascript"></script>
+        <script type="text/javascript">
+            // Body Part
+            document.write("From Head: " + document.body);
+        </script>
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+        <!-- DOM: stands for Document Object Model -->
+        
+        <ul>
+            <li>Home</li>
+            <li class="tick">About Us</li>
+            <li>Contact Us</li>
+            <li class="tick">My Account</li>
+        </ul>
+        
+        <script type="text/javascript">
+            
+            // Selecting Elements with CSS Selectors
+            var matches1 = document.querySelectorAll("ul li.tick");
+            document.write("the no. of selected elements: " + matches1.length + "<br />");
+            document.write("<br />-------------------------------------------<br />");
+            
+            for(var elem of matches1) {
+                document.write(elem.innerHTML + "<br />");
+            }
+            
+            matches1[1].style.textDecoration = "line-through";
+            
+        </script>
+        <script src="#" async defer></script>
+    </body>
+</html>

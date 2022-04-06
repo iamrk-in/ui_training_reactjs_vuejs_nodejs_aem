@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Javascript Selectors</title>
+        <meta charset="utf-8" />
+        <style>
+            #intro {
+                font-weight: bold;
+                font-style: italic;
+            }
+            
+            .highlight {
+                background: yellow;
+            }
+        </style>
+    </head>
+    
+    <body>
+        <p id="intro" style="color: red; font-size: 20px;">this is para</p>
+        <p>this is another para</p>
+        
+        <div id="info" class="disabled"> something saying in this.. </div>
+        
+        <hr />
+        
+        <script>
+            
+            // Styling DOM Elements
+            
+            // Setting Inline Styles on Elements
+            var elem = document.getElementById("intro");
+            
+            // Applying styles on Elemets
+            elem.style.color = "blue";
+            elem.style.fontSize = "18px";
+            elem.style.fontWeight = "bold";
+            
+            // Naming Conventions of CSS Properties in Javascript
+            // font-size - fontSize, text-decoration - textDecoration
+            
+            // Getting Style Information from Elements
+            document.write("style1: " + elem.style.color + "<br />");
+            document.write("style2: " + elem.style.fontSize  + "<br />");
+            document.write("-----------------------------------------------------------<br />");
+            
+            var styles = window.getComputedStyle(elem);
+            document.write("color: " + styles.getPropertyValue("color") + "<br />");
+            document.write("fontSize: " + styles.getPropertyValue("font-size") + "<br />");
+            document.write("fontWeight: " + styles.getPropertyValue("font-weight") + "<br />");
+            document.write("fontStyle: " + styles.getPropertyValue("font-style") + "<br />");
+            document.write("textDecoration: " + styles.getPropertyValue("text-decoration") + "<br />");
+            document.write("-----------------------------------------------------------<br />");
+            
+            // Adding CSS Class's to Elements
+            var elem = document.getElementById("info");
+            
+            // className
+            //elem.className = "note";
+            //elem.className += " highlight";
+            
+            // or 
+            
+            // classList - add()
+            elem.classList.add("hide"); // add a new class
+            elem.classList.add("note", "highlight"); // add multiple classes
+            
+            // classList - remove()
+            elem.classList.remove("highlight"); // remove a class 
+            
+            // toggle - check the class
+            elem.classList.toggle("note"); // if exists, that will remove 
+            elem.classList.toggle("noted"); // if not exists,, that will add
+            
+            // determine if class exist
+            if(elem.classList.contains("noted")) {
+                document.write("the specified class exists on the element!");
+            }
+            
+            
+        </script>
+    </body>
+</html>
