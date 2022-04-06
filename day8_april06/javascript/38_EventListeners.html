@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Javascript Selectors</title>
+        <meta charset="utf-8" />
+        <script>
+            function firstFunction() {
+                alert("the first functon executed succssfully!")
+            }
+
+            function secondFunction() {
+                alert("second fun., executed");
+            }
+
+
+            function sayHello() {
+                alert("sayHello");
+            }
+
+            function setHoverColor() {
+                btn.style.background = "#3ea";
+            }
+
+            function setNormalColor() {
+                btn.style.background = "#efa";
+            }
+        </script>
+    </head>
+    
+    <body>
+        
+        <button id="myBtn"> click btn </button>
+
+        <script>
+            var btn = document.getElementById("myBtn");
+
+            // btn.onclick = firstFunction;
+            // btn.onclick = secondFunction;
+
+            // or 
+
+            //btn.addEventListener("click", firstFunction);
+            //btn.addEventListener("click", secondFunction);
+
+            // adding event listeners for different event types
+            btn.addEventListener("click", sayHello);
+            btn.addEventListener("mouseover", setHoverColor);
+            btn.addEventListener("mouseout", setNormalColor);
+
+            // removing event listeners
+            btn.removeEventListener("click", sayHello);
+        </script>
+    </body>
+</html>

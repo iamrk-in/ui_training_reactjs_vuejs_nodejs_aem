@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Javascript Selectors</title>
+        <meta charset="utf-8" />
+        <style type="text/css">
+
+        </style>
+        <script>
+            
+        </script>
+    </head>
+    
+    <body>
+        <form action="process.php" method="post">
+            <label> First Name </label>
+            <input type="text" name="first_name" id="first_name" />
+            <input type="submit" value="submit" id="submitBtn" />
+        </form>
+
+        <script type="text/javascript">
+            var btn = document.getElementById("submitBtn");
+            btn.addEventListener("click", function(event) {
+                var name = document.getElementById("first_name").value;
+                alert("sorry : " + name + " the preventDefault() won't let you to submit!");
+                event.preventDefault();
+            })
+        </script>
+    </body>
+</html>
