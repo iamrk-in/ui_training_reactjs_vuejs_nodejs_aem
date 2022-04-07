@@ -1,0 +1,210 @@
+-> What is Javascript? 
+    - Javascript is an Open Source Client Side Scripting Language.
+    - Client Side Scripting refers to Scripts that Run with in your Web Browser.
+    - It is Designed to add the Interactivity and Dynamic Effects to the Web Pages by Manipulating the Content returned from a Web Server
+
+    - Javascript is an Object Oriented Programming Language.
+    - Javascript is a Case Sensitive (a, A)
+    - Javascript is an Interpreted Scripting Language
+        - There are 2 types of Errors: 
+            1. Compile Time Errors
+            2. Run Time Errors / Logical Errors - Exception Handling
+
+-> What we can do with Javascript?
+    - Modify the Content of a Web Page by Adding or Removing Elements.
+    - Change the Style and Position of the Elements
+    - Monitor Events like., click, hover, focus etc., 
+    - Perform and Control Transitions and Animations
+    - Create the Dialog Boxes
+    - Perform Operations based on User Inputs and Displat the Results
+    - Validating User Inputs
+
+-> Adding Javascript to your Web Page:
+    - There are 3 ways: 
+        1. Embedded - <script> .... </script>
+        2. Creating an External Javascript with the extension .js and then load it into pages through <script src=""></script>
+        3. Into the HTML tags, using special attributes such as: onclick, onmouseover, etc., 
+
+-> Javascript Concepts: 
+    1. Syntax 
+    2. Displaying Output 
+    3. Data Types
+    4. Comments
+    5. Variables
+    6. Operators
+    
+    8. String, Numbers, 
+    9. Decision Making Statements
+    10. Loop Statements
+    11. Arrays
+    12. Functions
+    7. Events 
+
+
+-> Data Types: 
+    - a Type of Data, which re - present the way of Output
+    - There are 2 Types of Data: 
+        1. Primitive Data Types
+            1. Number: 0 - 9; 23, -54, 3.4, -7.4, 2e3, 5^3, pi
+            2. String: a - z, A - F, 0 - 9, all symbols;
+                - enclosed: ' .... ' (or) " ... " (or) ` .... `
+            3. Boolean: true or false
+
+        2. Non - Primitive Data Types
+            1. NAN
+            2. NULL
+            3. UNDEFINED
+
+        3. Abstract Data Types
+            1. Arrays
+            2. Functions
+            3. Objects
+
+-> Identifiers: 
+    - The name itself is saying its an Identifying 
+    - To declare the Identifiers, we are having some set of rules:
+        1. The First Character, Should be either: a - z, A - Z, _
+        2. From the Second Character, it even accepts: a - z, A - Z, 0 - 9, _
+        3. No Spaces are allowed
+        4. No Special Symbols are allowed, Except Underscore (_)
+        5. Can have a Combination of Lowercase & Uppercase 
+
+    - ex., name (a), _Name (a), full_Name (a), 1Num (x)
+
+-> Keywords: 
+    - The Keywords / Builtin / PreDefined, are having some meaning which helps you to use them in the program, to complete the task.
+    - list out of Keywords: 
+        and, async, await, try, if, while etc., 
+        
+-> Comments: 
+    - There are 2 types of Comments:
+        1. Single Line: // ..................
+        2. Multi Line: /* ............. */
+
+-> Declaring Variables: 
+    - Variable: 
+        - A Variable is a Name, Which is used to Store the Data / Value, and that can be Manageable
+        - To Declare the Variable, we use Three different ways: 
+            1. Var 
+            2. Let 
+            3. Const
+            
+-> Operators: 
+    - an Operator is a Symbol, which is used to Evaluate th Expressions
+    - There are 6 Types of Operators
+        1. Arithmatic: +, -, *, /, %, ++, --
+        2. Assignment: +=, -=, *=, /=, %=
+        3. Comparison (Relational): ==, !=, <, >, <=, >=
+        4. Conditional (Ternary): () ? ...... : ...........
+        5. Logical: &&, ||, !
+    
+-> Decision Making Statements: 
+    - if, if else, if else if else, switch Case
+
+-> Loop Statements:    
+    - while, do while, for
+
+-> Arrays: 
+    - the Array is a set of different data type elements
+
+-> Functions: 
+    - a Function is a set of reusable Statements
+    - function call, definition
+    - passing parameters to Functions
+    - global variables vs local variables
+    - re usable Functions
+    - function with return Statement
+    - anonymous Functions
+    - arrow functions
+    
+    - call back functions
+
+
+-> Nodes, Selectors, Styling, Get / Set Attributes, Manipulation, Navigation, Window, Screen, Location, History, Navigator, Dialog, Timer, 
+
+-> detecting browser language: navigator.language
+-> getting browser name and version information: 
+    - appName 
+    - appVersion
+    - appCodeName
+    - userAgent
+    - platform
+-> java enabled or not in browser: navigator.javaEnabled()
+-> dialog methods: alert(), prompt("enter your name", "") and confirm("...?")
+-> Timers:
+    setInterval(e)
+    setTimeout(e)
+
+    clearInterval()
+    clearTimeout()
+
+-> Event Listeners: 
+-> Event Propagation: 
+    - Event Propagation is a mechanism that defines how events propagate or travel through the DOM tree to arrive at its target and what happens to if afterward
+        body
+            div.wrap
+                p.hint
+                    a 
+
+    - Bubbling Phase: 
+        - the exact opposite occurs
+
+-> Prevent Default:
+-> Borrowing Methods: 
+    call(), apply()
+-> Hoisting:
+    - all the variables and functions declarations are moved or hoisted to the top of their current scope, 
+-> Closures: 
+    - a global variable can be accessed and manipulated anywhere in the program.
+    - wheras, the local variable can only be accessed and manipulated by the function thay are declared in
+    
+-> Creating the Getter and Setter Functions: 
+-> Strict Mode: 
+    
+-> JSON Parsing
+    - JSON stands for Javascript Object Notation.
+    - It is ligh-weight data interchange format for data exchange between server and client which is quick and easy to parse and generate
+    [{
+        "username": "jeo", 
+        "userpass": "jO3"
+    }, 
+    {
+        "username": "jeo", 
+        "userpass": "jO3"
+    }]
+
+    ex., [{
+        "book1": {
+            "name": "php", 
+            "author": "xbM", 
+            "year": 1274, 
+            "genre": "IT", 
+        }, 
+        "book2": {
+
+        }
+    }]
+
+-> Error Handling: 
+    - try .. catch 
+
+-> Regular Expressions: 
+    - regex or RegExp - find patterns in the text.
+    - exec(), test(), search(), replace(), match(), split()
+
+-> Cookies: 
+
+-> Ajax: 
+    - Asyn, JS and XML.
+    - Loading data from the Server and Selectivly Updating parts of a Web Page - without Reloading the Whole Page
+    - XMLHttpRequest 
+    - Sending a Req & Retriev the Response
+     var request = new XMLHttpRequest();
+     request.open("GET", "fileName / Url");
+
+
+-> EcmaScript: 
+    - let 
+
+-> Creating an Object with UserDefinedMethod
+-> Inheritance
