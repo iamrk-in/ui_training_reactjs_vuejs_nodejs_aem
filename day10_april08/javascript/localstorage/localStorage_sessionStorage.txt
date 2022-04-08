@@ -1,0 +1,16 @@
+localStorage: the data which is stored at client - remain even if you close the browser
+builtin methds:
+	1. setItem()
+	2. getItem()
+	3. removeItem()
+	4. clear()
+
+sessionStorage: same., - will not remain
+buitin methods:
+	1. setItem()
+	2. getItem()
+	3. removeItem()
+	4. clear()
+
+var user = {firstName: "john", lastName: "paul"}
+sessionStorage.setItem("id", JSON.stringify(user));

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>jQuery</title>
+        <meta charset="utf-8" />
+        <style type="text/css">
+            .highlight {
+                background: yellow;
+            }
+        </style>
+        <script type="text/javascript" src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+        <script type="text/javascript">
+            $(document).ready(function() {
+                /*$("p").click(function() {
+                    $(this).slideUp();
+                });*/
+
+                $("p").hover(function() {
+                    $(this).addClass("highlight");
+                }, function() {
+                    $(this).removeClass("highlight");
+                })
+            });
+        </script>
+    </head>
+    
+    <body>
+        <p>click on me, and i'll disappear!</p>
+        
+        <p>click on me, and i'll disappear!</p>
+        
+        <p>click on me, and i'll disappear!</p>
+
+        <script>
+            
+        </script>
+    </body>
+</html>
