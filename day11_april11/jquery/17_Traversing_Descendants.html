@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>jQuery</title>
+        <meta charset="utf-8" />
+        <style>
+            * {
+                margin: 10px;
+            }
+
+            .frame {
+                border: 2px solid green;
+            }
+        </style>
+        <script type="text/javascript" src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+        <script type="text/javascript">
+            $(document).ready(function() {
+                $("div").find("li").addClass("frame");
+            });
+        </script>
+    </head>
+    
+    <body>
+        <div class="container">
+            <h1> hello world </h1>
+            <p> this is <em> simple </em> para </p>
+
+            <ul>
+                <li>list item1</li>
+                <li>list item2</li>
+            </ul>
+        </div> 
+        <script>
+            
+        </script>
+    </body>
+</html>

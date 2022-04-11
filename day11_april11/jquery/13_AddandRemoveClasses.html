@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>jQuery</title>
+        <meta charset="utf-8" />
+        <style>
+            p {
+                color: #f00;
+                text-decoration: underline;
+                text-transform: uppercase;
+            }
+
+            .high-light {
+                background-color: bisque;
+            }
+        </style>
+        <script type="text/javascript" src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+        <script type="text/javascript">
+            $(document).ready(function() {
+                $("p").click(function() {
+                    $(this).toggleClass("high-light");
+                })
+            });
+        </script>
+    </head>
+    
+    <body>
+        <h1 class="page-header"> sample heading </h1>
+
+        <p>Over the years of developing websites for clients, I’ve learned that the age-old adage, “If you want it done right, you gotta do it yourself,” can be a two-way street.</p>
+
+        <p class="hint high-light">Over the years of developing websites for clients, I’ve learned that the age-old adage, “If you want it done right, you gotta do it yourself,” can be a two-way street.</p>
+
+        <button type="button"> add class </button>
+        <script>
+            
+        </script>
+    </body>
+</html>

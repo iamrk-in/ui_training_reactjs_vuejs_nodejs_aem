@@ -203,3 +203,140 @@ The this keyword value inside a simple function
 The this keyword value inside an arrow function
 
 
+jquery assignments
+--------------------------------------------------------------------------------------------
+
+Change text color of the elements using jQuery
+Change text contents of the elements on button click using jQuery
+
+Selecting an element by ID in jQuery
+Selecting elements by class name in jQuery
+Selecting elements by element name in jQuery
+Selecting elements by attribute in jQuery
+Selecting elements by compound CSS selector in jQuery
+Selecting elements by jQuery custom selector
+
+Run code on document ready event in jQuery
+Run code on click event in jQuery
+Run code on double-click event in jQuery
+Run code on hover event in jQuery
+Run code on mouseenter event in jQuery
+Run code on mouseleave event in jQuery
+Run code on keypress event in jQuery
+Run code on keydown event in jQuery
+Run code on keyup event in jQuery
+Run code on change event in jQuery
+Run code on focus event in jQuery
+Run code on blur event in jQuery
+Run code on submit event in jQuery
+Run code on resize event in jQuery
+Run code on scroll event in jQuery
+
+Creating a simple show hide effect in jQuery
+Creating animated show hide effect in jQuery
+Creating simple toggle effect in jQuery
+Creating animated toggle effect in jQuery
+
+Creating fade-in and fade-out effect in jQuery
+Setting the duration of fading effect in jQuery
+Creating fade toggle effect in jQuery
+Setting the duration of fade toggle effect in jQuery
+Fading elements to a certain opacity in jQuery
+
+Creating slide-up and slide-down effect in jQuery
+Setting the duration of sliding effect in jQuery
+Creating slide toggle effect in jQuery
+Setting the duration of slide toggle effect in jQuery
+
+Creating animation effect in jQuery
+Animate multiple CSS properties in jQuery
+Animate multiple CSS properties only by one in jQuery
+Animate CSS property using relative values in jQuery
+Animate CSS property with predefined values in jQuery
+
+Method chaining in jQuery
+Breaking method chaining code in multiple line in jQuery
+Exceptions method chaining in jQuery
+
+jQuery effect method without a callback function
+jQuery effect method with a callback function
+Executing callback multiple times in jQuery
+
+jQuery get text contents of the elements
+jQuery set text contents of the elements
+jQuery get HTML contents of the elements
+jQuery set HTML contents of the elements
+jQuery get value an attribute of an element
+jQuery set an attribute for the elements
+jQuery set multiple attributes for the elements
+jQuery get the value of a form element
+jQuery set the values of the form elements
+
+jQuery insert HTML at the end of the elements
+jQuery insert HTML at the beginning of the elements
+jQuery multiple HTML elements at the beginning or end of the elements
+jQuery insert HTML before and after the elements
+jQuery insert multiple HTML elements before and after the elements
+jQuery wrap HTML around the elements
+jQuery Remove Elements & Attribute
+jQuery remove the contents of the elements
+jQuery remove the HTML elements from the page
+jQuery remove the parent element of an HTML element from the page
+jQuery remove an attribute from the HTML elements
+jQuery Add and Remove CSS Classes
+jQuery add a CSS class to the HTML elements
+jQuery add multiple CSS classes to the HTML elements
+jQuery remove CSS classes from the HTML elements
+jQuery remove all the CSS classes from the HTML elements at once
+jQuery toggle the CSS classes of the HTML elements
+
+jQuery get the value of a CSS property of an element
+jQuery set the value of a CSS property for the elements
+jQuery set the value of multiple CSS properties of the elements
+
+jQuery get width and height of an element
+jQuery set width and height of the elements
+jQuery get inner width and height of an element
+jQuery set inner width and height of the elements
+jQuery get outer width and height of an element
+jQuery get outer width and height of an element including margin area
+jQuery set outer width and height of the elements
+
+jQuery select the direct parent element of an element
+jQuery select all the ancestor elements of an element
+jQuery select the specific ancestor elements of an element
+jQuery select all the ancestor elements between two elements
+jQuery select the direct children element of an element
+jQuery select the specific descendant elements of an element
+jQuery select all the descendant elements of an element
+jQuery select all the sibling elements of an element
+jQuery select specific sibling elements of an element
+jQuery select the next sibling element of an element
+jQuery select all the next sibling elements of an element
+jQuery select all the following sibling elements between two elements
+jQuery select the previous sibling element of an element
+jQuery select all the previous sibling elements of an element
+jQuery select all the preceding sibling elements between two elements
+
+jQuery select the first element only
+jQuery select the last element only
+jQuery select an element by index
+jQuery select an element by negative index
+jQuery filter the selection of elements via selectors
+jQuery filter the selection of elements through a custom function
+jQuery select the elements that has specific child elements
+jQuery select the elements that does not match certain condition
+jQuery select the elements that did not pass certain function test
+jQuery select the elements by range of indices
+jQuery select the elements by range of negative indices
+
+jQuery load content inside an element from a file
+jQuery execute code based upon load request response
+jQuery load content of selected element from a file
+jQuery make ajax request using HTTP get method
+jQuery send data with ajax using HTTP get method
+jQuery submit form data with ajax using HTTP post method
+
+Putting the jQuery into no-conflict mode
+Prevent conflict between jQuery and other JavaScript libraries
+Avoid conflict when including the jQuery before other JavaScript libraries

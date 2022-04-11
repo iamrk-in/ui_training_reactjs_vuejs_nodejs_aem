@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>jQuery</title>
+        <meta charset="utf-8" />
+        <script type="text/javascript" src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+        <script type="text/javascript">
+            $(document).ready(function() {
+                $("button").click(function() {
+                    var newHeading = "<h1>important heading!</h1>";
+                    var newPara = document.createElement("p");
+                    newPara.innerHTML = "<em>Of course, there are companies out there that have great web writers internally, but most don’t.</em>";
+                    var newImage = $('<img src="images/favicon-16x16.png" alt="favicon" />');
+
+                    $("body").append(newHeading, newPara, newImage);
+                });
+            });
+        </script>
+    </head>
+    
+    <body>
+        <button type="button"> insert contents </button> 
+
+        <p>Over the years of developing websites for clients, I’ve learned that the age-old adage, “If you want it done right, you gotta do it yourself,” can be a two-way street.</p>
+        <script>
+            
+        </script>
+    </body>
+</html>

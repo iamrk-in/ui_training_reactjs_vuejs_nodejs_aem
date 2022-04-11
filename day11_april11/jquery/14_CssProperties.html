@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>jQuery</title>
+        <meta charset="utf-8" />
+        <style>
+            div {
+                width: 100px;
+                height: 100px;
+                display: inline-block;
+                margin: 10px;
+            }
+        </style>
+        <script type="text/javascript" src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+        <script type="text/javascript">
+            $(document).ready(function() {
+                $("div").click(function() {
+                    $(this).css({
+                        "font-size": "24px", 
+                        "color": "#fff"
+                    })
+                })
+            });
+        </script>
+    </head>
+    
+    <body>
+        <div style="background-color: orange;"> 1 </div>
+        <div style="background-color: #ee82ee;"> 2 </div>
+        <div style="background-color: rgb(139, 205, 50);"> 3 </div>
+        <div style="background-color: #f00;"> 4 </div>
+
+        <p>clicked div <strong id="result"></strong></p>
+        <script>
+            
+        </script>
+    </body>
+</html>
