@@ -161,3 +161,135 @@ jquery:
 5. jquery practical examples
 6. creating the dynamic actions using bootstrap, javascript, jquery 
 7. debugging techniques of javascript
+
+
+day 11: 
+
+jquery
+1. jquery manipulation (get / set, insert, reemove, css class, style properties)
+2. jquery traversing, ancestors, descendants, siblings, 
+3. ajax
+
+day 12: 
+
+jquery
+1. jquery practical examples
+2. creating the dynamic actions using bootstrap, javascript, jquery 
+3. debugging techniques of javascript
+
+sass
+    Introducing SASS
+        Defining CSS Preprocessors
+        Why use Preprocessors?
+        What is SASS?
+        SCSS or Sass?
+    Setting up SASS
+        Environment Setup
+        Folder Structure
+        File Structure
+        Initializing our Project Directory
+        Install node-sass
+        Compiling Sass code to CSS
+        Live Reload
+
+day 13:
+
+sass
+    Variables
+        What are Variables?
+        Variables in Action
+    Nesting
+        What is Nesting?
+        Nesting in Action
+    Mixins
+        What are Mixins?
+        Common Use Cases
+    Functions
+        What are Functions?
+        Function Examples
+    Partials and Importing
+        Using Partials
+        @import in CSS vs SASS
+    Inheritance
+        What is Inheritance?
+        Examples of Inheritance
+    The Ampersand Operator
+        What is the SASS Ampersand Operator?
+    Control Directives
+        @if and @else/li>
+        @for
+        @while
+
+
+day 14:
+
+sass
+    Interpolation
+        Understanding the Syntax
+        Why use Interpolation?
+    Placeholders
+        Why use Placeholders?
+    Structuring your SASS Projects
+        How do we structure our SASS projects?
+        Simple Structure
+        The 7-1 Pattern
+        Get up and running with 7-1
+    Setting up Media Queries with SASS
+        Setting up your mixins
+        Using a Mixin
+        Another way to set up our Mixins
+    Setting up the Perfect Build Process
+        What is a Build Process?
+        Creating the Build Process!
+
+less
+	introduction
+	installation
+
+
+day 15:
+
+less
+	nested rules
+	nested directives
+	operations
+	escaping
+	functions
+	namespace
+	scope
+	importing
+	variables
+	extend
+	mixins
+	parametric
+	mixins as functions
+
+
+day 16: 
+
+less
+	passing rulesets to mixins
+	import directives
+	import options
+	mixin guard
+	css guard
+
+	loops
+	merge
+	parent selectors
+	
+	functions   
+		misc functions
+		string functions
+
+day 17:
+
+less
+		list functions
+		math functions
+		type functions
+		color definition functions
+		color operation
+		color blending
+
+	sample  project in less
