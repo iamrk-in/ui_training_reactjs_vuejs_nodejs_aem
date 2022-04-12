@@ -1,0 +1,27 @@
+/*
+@mixin transform {
+    transform: rotate(180deg);
+    -webkit-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+}
+*/
+
+@mixin transform($property) {
+    transform: $property;
+    -webkit-transform: $property;
+    -ms-transform: $property;
+}
+
+
+.navbar {
+    background-color: orangered;
+    padding: 1rem;
+    ul {
+        list-style: none;
+    }
+    li {
+        text-align: center;
+        margin: 1rem;
+        @include transform(rotate(20deg));
+    }
+}

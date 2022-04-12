@@ -1,0 +1,15 @@
+@import 'props';
+
+@function add-number($first-number, $second-number) {
+    @return ($first-number + $second-number)
+}
+
+.box1 {
+    padding: add-number(5px, 10px);
+    width: $width;
+    height: height;
+    background: $bg-color;
+    color: $color;
+    text-decoration: $txtDec;
+}
+

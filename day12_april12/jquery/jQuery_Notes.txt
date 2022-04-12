@@ -1,0 +1,153 @@
+-> jQuery: 
+	- jQuery is a fast, light-weight and rich javascript library 
+	- "write less, do more"
+	- jQuery also gives you the ability to create Ajax based applications
+
+-> What can we do with jQuery?
+	1. select elements to perform manipulation
+	2. create effects lik show / hide, fade, etc., 
+	3. complex css animations
+
+-> Advantages: 
+	1. it save a lot of time
+	2. simplify common js tasks
+	3. compatible with browsers
+
+-> jQuery Started
+-> Selectors:
+	1. Selecting Elements 
+		by ID 
+		$("#mark").css("background", "red");
+
+		by ClassName
+		$(".mark").css()
+
+		by Name
+		$("p").css()
+
+		by Attribute
+		$('input[type="text"]').css()
+
+
+	2. Selecting Elements by Compound CSS Selector
+		$("p.mark").css();
+		$("#mark span").css()
+		$("ul li").css()
+		$("ul#mark li").css()
+		$("ul.mark li").css()
+		$('a[target="_blank"]')
+
+-> Custom Selector:
+-> Events:
+	- hover, click, dbclick, mouseenter, mouseleave, 
+	- keypress, keyup, keydown, keyrelease
+
+	- form events: change, focus, blur, submit, 
+
+-> Document/Window Events:
+	- ready() - to specify a function to execute when the DOM is fully loaded
+	- resize()
+		$(document).ready(function() {
+			$(window).resize(function() {
+				$(window).bind("resize", function() {
+					$("p").text("window width: " + $(window).width() + ", height: " + $(window).height()) 
+				})
+			})
+		})
+
+	- scroll()
+		- $(window).scroll(function() {
+			$("p").show().fadeOut("slow")
+		})
+
+-> Effects:
+	- show(), hide(), toggle()
+	- fading effcts
+		$("p").fadeOut()
+		fadeToggle()
+		fadeTo()
+		slideDown()
+		slideUp()
+
+		- very-fast, very-slow
+	
+-> Animations: 
+		- single property 
+		- multiple properties
+		- multiple properties one by one or queued
+			$("img")
+				.animate({width: ""})
+				.animate({height: "})
+		- animate properties with relative values
+			$("img")
+				.animate({
+					top: "+=50px", 
+					left: "+=50px"
+				})
+		- pefedined values	
+			width: 'toggle'
+		- stopping animations: 
+			stop()
+			$(".btnClick").click(function() {
+				$("img").stop()
+			})
+
+		- hover effect:
+			$(".box").hover(function() {
+				$(this).find("img").stop(true, true).fadeOut()
+			})
+
+-> chaining: 
+
+-> callback:
+	$("button").click(function() {
+		$("p").slideToggle("slow");
+	})
+
+-> getter and setter:
+	- text(), html(), attr(), val()
+
+-> insert content
+	- append(), prepend(), html(), text(), before(), after(), wrap()
+
+-> remove elements and attributes:
+	- empty()
+		$(".container").empty()
+	- remove()
+		$("p.container").remove()
+	- unwrap()
+	- removeAttr()
+		$("a").removeAttr("href")
+
+-> add and remove classes:
+	- addClass()
+	- removeClass()
+
+-> css properties:
+	- css()
+
+-> Dimensions:
+	- width(), height(), innerWidth(), innerHeight(), outerWidth(), outerHeight()
+
+-> Traversing: 
+	- ancestors: parent(), parents(), parentsUntil()
+	- descendants: children(), find()
+	- siblings: siblings(), next(), nextAll(), nextUntil(), prev(), prevAll(), prevUntil()
+
+-> Filtering: 
+	- filter(), first(), last(), eq(), slice(), has(), not()
+
+-> Ajax:
+	- ajax load
+	- get & post - $.get() & $.post()
+	- GET request with Ajax
+
+	- Get Method - 1 Example
+
+	- POST 
+
+-> NoConflict:
+	- $ or jQuery
+	- jQuery.noConflict()
+
+-> Examples - jQuery - Carousel

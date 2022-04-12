@@ -1,0 +1,123 @@
+-> What is SASS?
+    - SASS full form: Syntactically Awesome Style Sheets
+    - It is a tool known as CSS Pre-processor
+    - CSS Pre-processors are Scripting Languages that extend the default Capabilities of CSS
+
+-> Why use Pre-processors?
+    - Cleaner code to Variables and Nesting
+    - Ease of Maintenance and Organisation as we can Separate our files into Modules
+    - Ability to Implement Logic and Calculation in our Stylesheets
+    - Overall, Improvement in Workflow, which saves no of hours
+
+-> The advantage is known as keeping your CSS "DRY", - "Don't Repeat Yourself"
+
+-> Features: 
+    1. Variables
+    2. Nesting
+    3. Mixins
+    4. Functions
+    5. Partials and Imports
+    6. INheritance 
+    7. Control Directives
+
+-> There are 2 different syntaxes: SASS and SCSS.
+    - SASS - Older Syntax, which is focusing on 'Indentation to Separate Code Blocks' and 'Newline Characters to Separate Rules'
+
+    - SCSS - a Modern Syntax, It's syntax is very similar to CSS, and that it uses the brackets, simicolons
+
+    - the file extension of SASS, will be in .scss
+
+-> Setting Up of SASS Project:
+    1. NodeJs - NodeJs is a Javascript Runtime Environment 
+        - NPM - NodeJs Package (Modules - BuiltIn Functions) Manager
+        1. NodeJs Runtime
+        2. Core Package
+        3. NPM Package Manager
+
+  2. Create the root directory, inside create sass, css - 2 dir's, 
+	root/
+		sass/ - main.scss
+		css/ - style.css
+		index.html - touch (npm install -g touch) - touch index.html
+
+	Initalize the project: 
+		1. npm init -y
+			package.json
+				"scripts": { , "compile-sass": "node-sass sass/main.scss css/style.css" }
+	Run the project: 
+		1. for compilation open one terminal: npm run compile-sass
+		2. live server with output: npm install -g live-server
+			open one more terminal: live-server 
+
+-> mixins: 
+	- makes use them to group together multiple CSS declarations  for reuse throughout  
+	@mixin transform { ... }
+example of mixin: 
+
+/*
+@mixin transform {
+    transform: rotate(180deg);
+    -webkit-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+}
+*/
+
+@mixin transform($property) {
+    transform: $property;
+    -webkit-transform: $property;
+    -ms-transform: $property;
+}
+
+
+.navbar {
+    background-color: orangered;
+    padding: 1rem;
+    ul {
+        list-style: none;
+    }
+    li {
+        text-align: center;
+        margin: 1rem;
+        @include transform(rotate(20deg));
+    }
+}
+
+
+-> functions: 
+	- sass functions can receive arguments and return a single value
+	- they add an element of programming to write CSS code, and we can do Math!
+	- the Standard Math Operators: +, -, *, /, %
+
+	- syntax:
+		@function add-number($first-number, $second-number) {
+			return $first-number * $second-number
+		}
+
+
+
+-> Partials and Importing:
+	- Break up of Files into Smaller Files without Affecting Performance
+	- Modularize
+	
+	// main.scss
+	@import 'nav';
+	@import 'header';
+	
+
+-> Inheritance: 
+	
+
+
+
+
+
+
+
+
+	
+
+
+
+
+
+        
