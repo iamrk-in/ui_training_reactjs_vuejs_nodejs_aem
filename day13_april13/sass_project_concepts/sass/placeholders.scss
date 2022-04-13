@@ -1,0 +1,24 @@
+%placeholder1 {
+    width: 100%;
+    height: 100%;
+    background-color: aqua;
+}
+
+%box {
+    background-color: aquamarine;
+    width: 100px;
+    height: 40px;
+    border: 1px solid #f00;
+}
+
+body {
+    @extend %placeholder1;
+}
+
+p {
+    @extend %placeholder1;
+}
+
+div.box1 {
+    @extend %box;
+}

@@ -1,0 +1,32 @@
+@import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@200&display=swap");
+/* container */
+.container {
+  width: 100%;
+  display: inline-block; }
+
+/* header */
+/* navigation */
+nav {
+  overflow: hidden;
+  background-color: #333;
+  position: fixed;
+  top: 0;
+  width: 100%; }
+  nav ul {
+    text-align: center;
+    list-style-type: none;
+    margin: 0;
+    padding: 15px; }
+    nav ul li {
+      display: inline;
+      font-size: 16px;
+      font-family: inherit; }
+      nav ul li a {
+        color: #f2f2f2;
+        text-decoration: none;
+        padding: 14px; }
+        nav ul li a:hover {
+          background-color: #111; }
+
+.content {
+  text-align: center; }
