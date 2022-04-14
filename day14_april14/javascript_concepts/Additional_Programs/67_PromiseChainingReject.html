@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript Concepts</title>
+</head>
+<body>
+    <script>
+        // promises are useful when you have to handle more than one asyn., tasks, - one after the another
+
+        // you can perform the operations after a promise is resolved using the methods: then(), catch() and finally()
+
+        // then() method
+
+        const count = true;
+
+        let countValue = new Promise(function(resolve, reject) {
+            reject("promise rejected");
+        });
+
+        countValue
+            .then(
+                function successValue(result) {
+                    console.log(result);
+                }, 
+            )
+            .catch(
+                function errorValue(result) {
+                    console.log(result);
+                }
+            );
+    </script>
+</body>
+</html>
