@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript Concepts</title>
+</head>
+<body>
+    <script>
+
+        function union(a, b) {
+            let unionSet = new Set(a);
+
+            for(let i of b) {
+                unionSet.add(i)
+            }
+
+            return unionSet;
+        }
+
+
+        function intersection(a, b) {
+            let intersectionSet = new Set();
+            console.log(a);
+            console.log(b);
+
+            for(let i of b) {
+                if(a.has(i)) {
+                    intersectionSet.add(i);
+                }
+
+                return intersectionSet;
+            }
+        }
+
+
+        function difference(a, b) {
+            let differenceSet = new Set(a);
+
+            for(let i of b) {
+                differenceSet.delete(i);
+            }
+
+            return differenceSet;
+        }
+
+        function subset(a, b) {
+            for(let i of b) {
+                if(!a.has(i)) {
+                    return false;
+                }
+            }
+
+            return true;
+        }
+
+        // Set Operations
+        let setA = new Set(['java1', '.net', 'ph1p', 'pyt1hon']);
+        let setB = new Set(['java', 'python', 'php']);
+
+        // union
+        let result = union(setA, setB);
+        console.log(result);
+
+        result = intersection(setA, setB);
+        console.log(result);
+
+        result = difference(setA, setB);
+        console.log(result);
+
+        result = subset(setA, setB);
+        console.log(result);
+    </script>
+</body>
+</html>
