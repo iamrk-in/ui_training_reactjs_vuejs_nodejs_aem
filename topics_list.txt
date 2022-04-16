@@ -242,14 +242,31 @@ sass
         What is a Build Process?
         Creating the Build Process!
 
+javascript
+	promise
+	async & await
+	
+day 15:
+	javascript
+		sets
+		maps
+		iterators & iterables
+		generators
+		debugging
+		symbol
+		
+
+
+day 16: 
+
+javascript
+	reflect & its functions
+	proxy
+
 less
 	introduction
 	installation
 
-
-day 15:
-
-less
 	nested rules
 	nested directives
 	operations
@@ -263,11 +280,6 @@ less
 	mixins
 	parametric
 	mixins as functions
-
-
-day 16: 
-
-less
 	passing rulesets to mixins
 	import directives
 	import options
@@ -278,13 +290,14 @@ less
 	merge
 	parent selectors
 	
-	functions   
-		misc functions
-		string functions
 
 day 17:
 
 less
+	functions   
+		misc functions
+		string functions
+
 		list functions
 		math functions
 		type functions
@@ -293,3 +306,41 @@ less
 		color blending
 
 	sample  project in less
+
+reactjs: 
+	introduction
+		what is reactjs
+		advantages of reactjs
+		what is single page application
+	project setup
+		installing the required node & npm
+		create the first reactjs project
+
+day 18: 
+	reactjs
+		working with 
+			html, 
+			css, 
+			scss, 
+			less
+			images, 
+			javascript
+		create the sample webpage using css
+		create the sample webpage using sass
+		create the sample webpage using less
+		
+day 19:
+	creating the website with group of components and pages
+	implementation of routing
+	segregating the total project with components and pages
+	working with event handlings like click, blur, focus, change etc., 
+	working with property binding, 1. one way property binding, 2. two way property binding
+	working with forms & its validation
+
+day 20:
+	implementing the life cycle hooks: 
+	1. class based life cycle hook
+	2. funtional based life cycle hook
+
+day 21: 
+	
