@@ -1,6 +1,6 @@
 # virtuezeal_uitraining
 
-day1:
+# day1:
 
 html
 1. creating html structure
@@ -19,7 +19,7 @@ css
 1. started with css, introduction
 
 
-day2: 
+# day2: 
 
 css
 1. creating the sample html page
@@ -35,7 +35,7 @@ css
 11. understanding about the position propertis and additional properties
 12. created the sample page using flex box, display: flex property
 
-day3: 
+# day3: 
 
 css
 1. create one more example or concept of grid layout
@@ -52,7 +52,7 @@ bootstrap
 6. create the sample or common web page layout
 7. implemented the concept of typography
 
-day4: 
+# day4: 
 
 bootstrap
 1. cont., with the concept of typography, 
@@ -73,7 +73,7 @@ bootstrap
 16. create the basic navigations
 
 
-day5: 
+# day5: 
 
 bootstrap
 1. created the navigations
@@ -86,7 +86,7 @@ bootstrap
 8. creating the shopping cart view layout.,
 
 
-day6: 
+# day6: 
 
 bootstrap
 1. cont., with rest of the shopping cart view layout design., 
@@ -106,7 +106,7 @@ javascript:
 12. functions
 13. working with nodes
 
-day7: 
+# day7: 
 
 javascript:
 1. selectors
@@ -123,7 +123,7 @@ javascript:
 12. timer
 
 
-day8: 
+# day8: 
 
 javascript and json:
 1. class & objects
@@ -139,7 +139,7 @@ javascript and json:
 11. strict mode
 12. json
 
-day9: 
+# day9: 
 
 javascript and ajax:
 1. error handling
@@ -153,7 +153,7 @@ jquery:
 7. jquery introduction, syntax,
 8. selectors, events
 
-day10:
+# day10:
 
 jquery: 
 1. jquery effects (show / hide, fade, slide etc., )
@@ -165,14 +165,14 @@ jquery:
 7. debugging techniques of javascript
 
 
-day 11: 
+# day 11: 
 
 jquery
 1. jquery manipulation (get / set, insert, reemove, css class, style properties)
 2. jquery traversing, ancestors, descendants, siblings, 
 3. ajax
 
-day 12: 
+# day 12: 
 
 jquery
 1. jquery practical examples
@@ -194,7 +194,7 @@ sass
         Compiling Sass code to CSS
         Live Reload
 
-day 13:
+# day 13:
 
 sass
     Variables
@@ -223,7 +223,7 @@ sass
         @while
 
 
-day 14:
+# day 14:
 
 sass
     Interpolation
@@ -248,7 +248,7 @@ javascript
 	promise
 	async & await
 	
-day 15:
+# day 15:
 	javascript
 		sets
 		maps
@@ -259,7 +259,7 @@ day 15:
 		
 
 
-day 16: 
+# day 16: 
 
 javascript
 	reflect & its functions
@@ -293,7 +293,7 @@ less
 	parent selectors
 	
 
-day 17:
+# day 17:
 
 less
 	functions   
@@ -318,7 +318,7 @@ reactjs:
 		installing the required node & npm
 		create the first reactjs project
 
-day 18: 
+# day 18: 
 	reactjs
 		working with 
 			html, 
@@ -331,7 +331,7 @@ day 18:
 		create the sample webpage using sass
 		create the sample webpage using less
 		
-day 19:
+# day 19:
 	creating the website with group of components and pages
 	implementation of routing
 	segregating the total project with components and pages
@@ -339,7 +339,7 @@ day 19:
 	working with property binding, 1. one way property binding, 2. two way property binding
 	working with forms & its validation
 
-day 20:
+# day 20:
 	implementing the life cycle hooks: 
 	1. class based life cycle hook
 	2. funtional based life cycle hook
