@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript Concepts</title>
+</head>
+<body>
+    <script>
+        // has() - returns true, if the 'objName' has a property
+
+        var x = {
+            foo: 1
+        };
+
+        console.log(Reflect.has(x, 'foo'));
+        console.log('foo' in x);
+        console.log(Reflect.has(x, 'bar'));
+    </script>
+</body>
+</html>

@@ -1,0 +1,77 @@
+/*body{
+   background:black;
+    @media @mobile {
+       background:red;
+    }
+    @media @tablet {
+        background-color: #4caf50;
+    }
+    @media @desktop {
+        background-color: #fad950;
+    }
+}*/
+@media (max-width: 767px) {
+  .container {
+    width: 100%;
+    background-color: #fff;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .container {
+    width: 50%;
+    background-color: #1a23fc;
+  }
+}
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .container {
+    width: 25%;
+    background-color: aquamarine;
+  }
+}
+/*.container {
+    width: 100%;
+
+    @include responsive(450px) {
+        float: left;
+        margin-top: 10px;
+    }
+}*/
+p {
+  background-color: #fff;
+  color: #1a23fc;
+  padding: 15px;
+}
+ul {
+  background-color: #fff;
+}
+li {
+  color: #1a23fc;
+}
+#small-circle {
+  /*width: 50px;
+    height: 50px;*/
+  background-color: #4caf50;
+  border-radius: 100%;
+  width: 125px;
+  height: 125px;
+}
+#big-circle {
+  width: 100px;
+  height: 100px;
+  background-color: #4caf50;
+  border-radius: 100%;
+  width: 150px;
+  height: 150px;
+}
+.small-round {
+  width: 50px;
+  height: 50px;
+  background-color: #fad950;
+  border-radius: 100%;
+}
+.big-round {
+  width: 100px;
+  height: 100px;
+  background-color: #fad950;
+  border-radius: 100%;
+}

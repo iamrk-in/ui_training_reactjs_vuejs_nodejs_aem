@@ -1,0 +1,18 @@
+-> less: 
+    - the less is also one of the css pre-processors
+    - variables 
+    - dynamically calculated values ex., font-size: 16px; font-size: calc(123em/35em);
+    - mixins, which enables you to reuse nd combine styles, passing arguments
+    - functions
+
+-> setUp:
+   - node & npm
+   - create the root / and required dir's & files
+   - npm init -y  
+   - npm install -g less
+to compile, run and see the results: 
+  - lessc style.less > style.css
+
+-> variables: 
+-> mixins: less enables us to use an existing class's or id's and apply all it's styles directly to another selector
+ bem's

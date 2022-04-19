@@ -1,0 +1,106 @@
+// media queries
+
+@mobile: ~"(max-width: 767px)";
+@tablet: ~"only screen and (min-width: 768px) and (max-width: 991px)";
+@desktop: ~"only screen and (min-width: 992px) and (max-width: 1199px)";
+@desktop-xl: ~"only screen and (min-width: 1200px) and (max-width: 1350px)";
+
+/*body{
+   background:black;
+    @media @mobile {
+       background:red;
+    }
+    @media @tablet {
+        background-color: #4caf50;
+    }
+    @media @desktop {
+        background-color: #fad950;
+    }
+}*/
+
+.container {
+    @media @mobile {
+        width: 100%;
+        background-color: #fff;
+     }
+     @media @tablet {
+         width: 50%;
+         background-color: #1a23fc;
+     }
+     @media @desktop {
+         width: 25%;
+         background-color: aquamarine;
+     }
+}
+
+
+.responsive(@maxWidth: @rules) {
+    @media only screen and (max-width: @maxWidth) {
+        @rules();
+    }
+}
+
+// usage of mixin and media queries
+/*.container {
+    width: 100%;
+
+    @include responsive(450px) {
+        float: left;
+        margin-top: 10px;
+    }
+}*/
+
+// variables
+@background-color: #fff;
+@text-color: #1a23fc;
+
+p {
+    background-color: @background-color;
+    color: @text-color;
+    padding: 15px;
+}
+
+ul {
+    background-color: @background-color;
+}
+
+li {
+    color: @text-color;
+}
+
+// mixins
+#circle(@size: 125px) {
+    background-color: #4caf50;
+    border-radius: 100%;
+    width: @size;
+    height: @size;
+}
+
+#small-circle {
+    /*width: 50px;
+    height: 50px;*/
+    #circle;
+}
+
+#big-circle {
+    width: 100px;
+    height: 100px;
+    #circle(150px);
+}
+
+.round() {
+    background-color: #fad950;
+    border-radius: 100%;
+}
+
+.small-round {
+    width: 50px;
+    height: 50px;
+    .round;
+}
+
+.big-round {
+    width: 100px;
+    height: 100px;
+    .round;
+}

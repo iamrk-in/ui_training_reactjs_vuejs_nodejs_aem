@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript Concepts</title>
+</head>
+<body>
+    <script>
+        // deleteProperty() - returns true if the value was deleted 
+        
+        var x = {
+            foo: 1, 
+            bar: 2
+        };
+
+        // access
+        console.log(delete x.foo);
+        console.log(delete x['foo']);
+
+        console.log(Reflect.deleteProperty(x, 'foo'));
+        console.log('x.foo : ' + x.foo);
+
+        // to restrict the delete or manipulate
+        Object.seal(x);
+        
+        console.log(delete x.foo);
+        console.log(delete x['foo']);
+
+        console.log(Reflect.deleteProperty(x, 'foo'));
+        console.log('x.foo : ' + x.foo);
+    </script>
+</body>
+</html>
