@@ -1,0 +1,39 @@
+@import "variables";
+@import "extend";
+@import "nesting";
+@import "operations";
+@import "mixins";
+// @import "functions";
+@import "media-queries";
+
+// multiple less files accessing
+//@import (nesting) "multiple.less";
+
+.box1 {
+    font-size: @var;
+    // @a: 30px;
+    color: @color;
+}
+
+#header {
+    color: @light-blue;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+h3 {
+    color: @primarycolor;
+}
+
+li {
+    color: @color;
+}
+
+.class1 {
+    background-color: @color-base;
+    .class2 {
+        background-color: @primarycolor;
+        color: @color;
+    } 
+}
+

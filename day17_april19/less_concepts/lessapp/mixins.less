@@ -1,0 +1,57 @@
+// simple mixins
+// accessing mixins as propeties and functions
+.round-borders {
+    border:3px solid #f32;
+	border-radius: 5px;
+}
+
+#menu {
+	color: #f32;
+	.round-borders;
+}
+
+.p1 {
+    color: brown;
+}
+
+// accessing functions 
+.p2 {
+    background-color: lightcoral;
+    .p1();
+}
+
+.p3 {
+    background-color: aquamarine;
+    .p1;
+}
+
+// passing parametric to functions
+.border(@width; @style; @color) {
+    border: @width @style @color;
+}
+
+.myBox {
+    .border(3px, dotted, #f240ad);
+}
+
+.img(@width; @height) {
+    width: @width;
+    height: @height;
+}
+
+.imgBox {
+    .img(190px, 110px)
+}
+
+// passing ruleset to mixin
+@detached-ruleset: {
+    .mixin {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        background-color: #aa66ee;
+    }
+};
+
+.cont {
+    @detached-ruleset();
+    .mixin();
+}

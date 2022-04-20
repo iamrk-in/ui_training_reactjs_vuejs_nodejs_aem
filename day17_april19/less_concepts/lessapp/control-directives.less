@@ -1,0 +1,11 @@
+// control directives
+.border(@width; @style; @color) {
+    @if(@width == 320) {
+        border: @width @style @color;
+    }
+    
+}
+
+.myBox {
+    .border(3px, dotted, #f240ad);
+}
