@@ -1,0 +1,18 @@
+@usedScope: global;
+.mixin() {
+    // @usedScope: mixin;
+    
+    .cont when (@usedScope = global) {
+        background-color: red;
+        color: black;
+    }
+
+    .style when (@usedScope = mixin) {
+        background-color: blue;
+        color: white;
+    }
+
+    // @usedScope: mixin;
+}
+
+.mixin();

@@ -1,0 +1,11 @@
+/*.mixin (@a) when (lightness(@a) >= 50%) {
+    font-size: 14px;
+}
+
+.mixin (@a) when (lightness(@a) < 50%) {
+    font-size: 16px;
+}
+
+.mixin (@a) {
+    color: @a;
+}*/

@@ -1,0 +1,17 @@
+@import "variables";
+
+// extend
+h2 {
+    font-style: italic;
+    &:extend(.style);
+    &:extend(.box1);
+}
+
+.style {
+    background: lightgreen;
+}
+
+// another usage of extend
+.style1:extend(.style) {
+    color: @color-base;
+}

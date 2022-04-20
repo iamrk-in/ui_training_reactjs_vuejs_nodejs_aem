@@ -1,0 +1,53 @@
+-> less: 
+    - the less is also one of the css pre-processors
+    - variables 
+    - dynamically calculated values ex., font-size: 16px; font-size: calc(123em/35em);
+    - mixins, which enables you to reuse nd combine styles, passing arguments
+    - functions
+
+-> setUp:
+   - node & npm
+   - create the root / and required dir's & files
+   - npm init -y  
+   - npm install -g less
+to compile, run and see the results: 
+  - lessc style.less > style.css
+
+-> variables & scope of variables
+-> extend: &:extend
+-> import: 
+	options: 
+		reference: it uses the LESS file only as a reference and will not output it 
+		inline: it enables you to copy your CSS into the output without being procesed
+		less: it will treat the imported file as the regular LESS file, despite what ever may be the file extension
+		css: it will treat the imported file as the regular CSS file, despite what ever may be the file extension
+		once: it will import the file only one time
+		multiple: it will import the file multiple times
+		optional: it continues compiling even though the file to import is not found
+
+-> nesting
+
+-> operations (+, -, *, /)
+
+-> mixins: mixin is a collection of CSS properties which facilitates you to add bunch of properties from one rule-set into another rule-set and includes class names as its properties. similar to functions
+
+-> mixin-guard: each mixin will have one or more guards which are separated by comma, a guard must be enclosed within () paranthesis
+- the less uses the guarded mixins and a guard can be written with if/else
+	- there are diff., types of guards
+		1. comparison operators
+		2. logical operators
+		3. type checking functions
+			iscolor, isnumber, isstring, iskeyword, isurl, 
+			ispixel, ispercentage, isem, isunit
+		4. conditional mixins
+
+-> functions: percentage(), color(), image-size(), image-width(), image-height(), convert(), default() - it will return true, when it is available inside the guard condition and does not match with any other mixin,  unit(), get-unit(), svg()
+
+-> css-guard: match values or a number of arguments on expressions
+
+npm uninstall -g less
+npm install -g less@1.3.3
+
+
+
+

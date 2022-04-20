@@ -1,0 +1,25 @@
+.media-query-container {
+  font-size: 30px;
+  background-color: aqua;
+}
+.media-query-container .media-query-item {
+  font-size: 0.9em;
+}
+@media (max-width: 991px) {
+  .media-query-container .media-query-item {
+    background-color: bisque;
+    font-size: 0.95em;
+  }
+}
+@media (min-width: 577px) and (max-width: 768px) {
+  .media-query-container .media-query-item {
+    background-color: cadetblue;
+    font-size: 1em;
+  }
+}
+@media (max-width: 576px) {
+  .media-query-container .media-query-item {
+    background-color: cornflowerblue;
+    font-size: 1.1em;
+  }
+}
