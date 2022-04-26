@@ -1,0 +1,36 @@
+1. creating the shopping cart 
+	1. user - reg & log
+	2. admin
+
+
+	1. local storage - functional life cycle hooks 
+	2. get your json data / rest api data - ecommerce
+	
+	1. static pages
+		1. home 
+		2. aboutus
+		3. contactus
+		4. privacy policy
+
+	2. dynamic pages
+		1. user
+			1. home
+			2. filters applying to products
+			3. searching functionality
+			4. adding to cart
+			5. viewing cart page
+			6. checkout page
+			7. show - user details & product details - output
+		
+			8. search for payment gateways  - api's - razorpay, payubiz, paypal
+		
+		2. admin
+			1. dashboard
+			2. crud operations - n no of products
+			3. crud operations of n no of users
+			4. maintaining the history of transactions
+
+normal pages: localhost:3000/registration - full name, email address
+			localhost:3000/login - needs to enter
+login pages: localhost:3000/myaccount
+admin page: localhost:3000/admin
