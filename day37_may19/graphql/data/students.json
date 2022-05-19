@@ -1,0 +1,60 @@
+{
+    "data": {
+        "students": [
+            {
+                "id": "S2476", 
+                "firstName": "ASD", 
+                "lastName": "MKO", 
+                "college": {
+                    "name": "ERY", 
+                    "location": "Kolkata"
+                }
+            }, 
+            {
+                "id": "S2276", 
+                "firstName": "JSD", 
+                "lastName": "MWO", 
+                "college": {
+                    "name": "EWY", 
+                    "location": "Uttar Pradesh"
+                }
+            }, 
+            {
+                "id": "S2246", 
+                "firstName": "QSD", 
+                "lastName": "MSO", 
+                "college": {
+                    "name": "ERY", 
+                    "location": "Kolkata"
+                }
+            }, 
+            {
+                "id": "S1676", 
+                "firstName": "MOWD", 
+                "lastName": "MWOI", 
+                "college": {
+                    "name": "ERYL", 
+                    "location": "Uttar Pradesh"
+                }
+            }, 
+            {
+                "id": "S2541", 
+                "firstName": "SGSD", 
+                "lastName": "MKWKO", 
+                "college": {
+                    "name": "EWY", 
+                    "location": "Uttar Pradesh"
+                }
+            }, 
+            {
+                "id": "S9756", 
+                "firstName": "HTAD", 
+                "lastName": "NMMKO", 
+                "college": {
+                    "name": "ERY", 
+                    "location": "Kolkata"
+                }
+            }
+        ]
+    }
+}

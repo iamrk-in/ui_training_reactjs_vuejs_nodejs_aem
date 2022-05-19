@@ -1,0 +1,14 @@
+[
+    {
+        "id": "col-101", 
+        "name": "DGJ", 
+        "location": "Uttar Pradesh", 
+        "rating": 5.0
+    }, 
+    {
+        "id": "col-102", 
+        "name": "MKH", 
+        "location": "Kolkata", 
+        "rating": 5.0
+    }
+]
