@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Javascript Selectors</title>
+        <meta charset="utf-8" />
+        <script>
+            function getViews() {
+                alert("you have accessed " + history.length + " the web pages in the session!");
+                // go back
+                window.history.back();
+                // go forward
+                window.history.forward();
+                // go to dpecific page
+                window.history.go(-2);
+            }
+        </script>
+    </head>
+    
+    <body>
+        <button type="button" onclick="getViews()"> get views </button>
+        <script>
+        
+        </script>
+    </body>
+</html>

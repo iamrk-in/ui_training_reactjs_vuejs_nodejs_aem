@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Javascript Selectors</title>
+        <meta charset="utf-8" />
+        <script>
+            var d = new Date();
+            document.write(d);
+
+            document.write("<br />------------------------------------<br/>");
+
+            var d = new Date(2022, 3, 30, 15, 15, 0, 0);
+            document.write(d);    
+
+            document.write("<br />------------------------------------<br/>");
+
+            d = new Date("06 April 2022");
+            document.write(d);
+
+            document.write("<br />------------------------------------<br/>");
+
+            d = new Date(12637388334);
+            document.write(d);
+
+            document.write("<br />------------------------------------<br/>");
+
+            // creating the date and time strings
+            var d = new Date();
+            //alert(`toDateString: ${d.toDateString()}, toLocaleDateString: ${d.toLocaleDateString()}, toString(): ${d.toString()}, toUTCString(): ${d.toUTCString()}`);
+
+            // getting the specific date and time components
+            // getting year, month and date
+            document.write(`getDate(): ${d.getDate()}`);
+            document.write('getDate(): ' + d.getDate());
+
+            document.write("<br />------------------------------------<br/>");
+
+            // setting the year, month and date
+            var d = new Date();
+            d.setFullYear(d.getFullYear() + 2);
+            document.write(d);
+            document.write("<br />------------------------------------<br/>");
+        </script>
+    </head>
+    
+    <body>
+        
+
+        <script>
+            
+        </script>
+    </body>
+</html>

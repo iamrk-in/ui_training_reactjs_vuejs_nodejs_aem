@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Zoom In out </title>
+		<meta charset="utf-8" />
+		<style>
+			button {
+				padding: 3px 6px;
+			}
+			button img {
+				vertical-align: middle;
+			}
+		</style>
+		<script type="text/javascript">
+			function zoomIn() {
+				
+				var myImg = document.getElementById("getaways");
+				var currWidth = myImg.clientWidth;
+				console.log(currWidth);
+				if(myImg.clientWidth == 500) {
+					console.log("max., zoomin level reached!");
+				} else {
+					myImg.style.width = (currWidth + 50) + "px";
+				}
+			}
+
+			function zoomOut() {
+				
+				var myImg = document.getElementById("getaways");
+				var currWidth = myImg.clientWidth;
+				if(currWidth == 50) {
+					alert("max., zoomin level reached!");
+				} else {
+					myImg.style.width = (currWidth - 50) + "px";
+				}
+			}
+
+		</script>
+	</head>
+
+	<body>
+		<div>
+
+			<button type="button" onmouseover="zoomIn()">
+				Zoom In
+			</button>
+
+			<button type="button" onclick="zoomOut()">
+				Zoom Out
+			</button>
+
+		</div>
+
+		<img src="getaways.png" width="163px" alt="getaways" title="" id="getaways" />
+	</body>
+</html>

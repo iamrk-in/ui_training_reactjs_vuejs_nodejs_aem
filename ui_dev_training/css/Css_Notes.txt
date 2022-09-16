@@ -1,0 +1,77 @@
+-> What is CSS & its use?
+    - The abbr., the CSS: Cascading Style Sheets
+    - It is used to apply the Styles to Content & Alignment to Content
+
+-> Important Point: 
+    PropertyName: ItsValue
+
+-> In how many ways, that CSS can be used in Html?
+    - Three ways: 
+        1. Inline 
+        2. Internal / Embedded
+        3. External
+
+-> Custom Styling: 
+    - Two types: 
+        1. Class 
+        2. Id 
+
+-> Color: 
+    - How many Colors? 256 Colors
+    - Three diff, ways: 
+        1. Name
+        2. Numerical: 
+            rgb(0, 0, 0)
+            rgb(255, 255, 255)
+            rgb(123, 153, 174)
+        3. HexaDecimal:
+            #... (min 3 chars)
+            #.... (appr 4 chars)
+            #...... (max 6 chars)
+
+            chars: a - f, A - F, 0 - 9
+
+            #a2e
+            #de2a
+            #
+            
+-> Comment: 
+    - There are 2 ways
+        1. Single Line : // .................. 
+        2. Multi Line : /* ................ */
+
+-> Additional Properties: 
+    display, margin, padding, color, font-size, position, transform, transition, 
+
+
+-> Resolutions:
+    1. Xtra Small Device: < 576px - 540px
+    2. Small Device: >= 576px to < 768px  - 720px
+    3. Medium Device: >= 768px to < 992px - 940px 
+    4. Large Device: >= 992px to < 1200px - 1140px
+    5. Xtra Large Device: >= 1200px to < 1400px - 1360px
+    6. XXtra Large Device: >= 1400px and more
+
+-> Applying Styles to Selector: 
+    1. selectorName { .... }
+    2. selectorName1, selectorName2, selectorName3, ... { .... }
+    3. selectorName1 selectorName2 { .... }
+    4. selectorName1 > selectorName2 { ... }
+    5. selectorName1 + selectorName2 { ... }
+    6. selectorName1 ~ selectorName2 { ... }
+
+-> Applying Styles to Attributes: 
+    1. [attributeName] { .... }
+    2. [attributeName = "itsValue"] { ... }
+    3. [attributeName ~= "itsValue"] { ... }
+        href~="https://"
+    4. [attributeName ^= "itsValue"] { ... }
+        href^="https://"
+    5. [attributeName $= "itsValue"] { ... }
+
+transition: 0.3s ease-in-out
+-webkit-transition: 0.3s ease-in-out
+-o-transition: 0.3s ease-in-out
+-moz-transition: 0.3s ease-in-out
+
+@supports: The @supports CSS at rule lets you to specify the declarations that depend on a browser's support for one or more specific CSS features. This is called a feature query. The rule may be placed at the top level code or nested any other conditional group 

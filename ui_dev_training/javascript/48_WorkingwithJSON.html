@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Javascript Selectors</title>
+        <meta charset="utf-8" />
+        <style type="text/css">
+
+        </style>
+        <script>
+            var json = `{
+                "name": "john", 
+                "age": 23, 
+                "country": "usa"
+            }`;
+
+            var obj = JSON.parse(json);
+            //alert(obj);
+            console.log(obj.name);
+            console.log(obj.age);
+            console.log(obj.country);
+
+            var json = `{
+                "book1": {
+                    "name": "php", 
+                    "author": "xbM", 
+                    "year": 1274, 
+                    "genre": "IT", 
+                    "rating": [1, 2, 3, 4, 5], 
+                    "status": true
+                }
+            }`;
+            var obj = JSON.parse(json);
+            console.log(obj.book1.name);
+            console.log(obj.book1.rating[3]);
+
+            printValues(obj);
+
+            function printValues(obj) {
+                for(var k in obj) {
+                    if(obj[k] instanceof Object) {
+                        printValues(obj[k]);
+                    } else {
+                        document.write(obj[k] + "<br />");
+                    }
+                }
+            }
+
+            // encoding the data as a JSON
+            // stringify 
+
+            var obj = {"name": "john", "age": 23, "country": "uae"};
+            var json = JSON.stringify(obj);
+            console.log(json);
+
+
+            var arr1 = ["php", ".net", "java", "angular"];
+            var json = JSON.stringify(arr1);
+            console.log(json);
+        </script>
+    </head>
+    
+    <body>
+        
+
+        <script type="text/javascript">
+            
+        </script>
+    </body>
+</html>

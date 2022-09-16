@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript Concepts</title>
+</head>
+<body>
+    <script>
+        
+        function* generatorFunc() {
+            yield 100;
+            yield 200;
+        }
+
+        const generator = generatorFunc();
+        console.log(generator.next());
+
+        console.log(generator.throw(new Error('error occured')));
+        console.log(generator.next());
+    </script>
+</body>
+</html>

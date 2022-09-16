@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Javascript Selectors</title>
+        <meta charset="utf-8" />
+        <style type="text/css">
+
+        </style>
+        <script>
+            // object literal
+            var objA = {
+                // properties 
+                name: "object A", 
+
+                // methods 
+                say: function(greet) {
+                    alert(greet + ", " + this.name)
+                }
+            }
+
+            objA.say("hello");
+
+            var objB = {
+                name: "object B", 
+            }
+
+            //objA.say.call(objB, "hey");
+            objA.say.apply(objB, ["hey"]);
+        </script>
+    </head>
+    
+    <body>
+        
+
+        <script type="text/javascript">
+            var nums = [3, 5, 8, 4, 2];
+            var max = Math.max.apply(null, nums);
+            alert(max);
+
+            var max = nums.reduce(function(a, b) {
+                return Math.max(a, b);
+            })
+            alert(max);
+        </script>
+    </body>
+</html>

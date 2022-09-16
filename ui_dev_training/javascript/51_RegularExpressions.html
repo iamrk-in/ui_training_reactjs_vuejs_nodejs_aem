@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Javascript Selectors</title>
+        <meta charset="utf-8" />
+    </head>
+    
+    <body>
+        <script>
+            /*
+            var regex = /^H$/;
+            // or 
+            var regex = new RegExp("/^N\.$/");
+
+            // pattern matching
+            ., *, ?, +, [ ], ( ), { }, ^, |, \
+
+            // character classes
+            [abc], [^abc], [a-z], [A-Z], [0-9], [\.\_\'] [a-z A-Z]
+            */
+
+            // predefined character / escape characters
+            // ., \d, \D, \s, \S, \w
+
+            // repetition quantifiers
+            // p+, p*, p?, p{2}, p{2,4}, p{2,}, p{,3}
+
+            // position anchors
+            // ^p, p$, p*
+
+            // modifiers
+            // g, i, m (^, $), o (expr), s (.) 
+
+            var str1 = "joHn is leaVing to Mumbai!";
+            var regex = /tm/;
+
+            if(regex.test(str1)) {
+                console.log("matched!");
+            } else {
+                console.log("not matched!");
+            }
+        </script>
+    </body>
+</html>
