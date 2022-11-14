@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My First Vue App</title>
+    <!-- <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script> -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.4.0/vue.js"></script>
+</head>
+<body>
+    <!-- <div id="app">
+        {{message}}
+    </div>
+    
+    <div id="app-2">
+        <span v-bind:title="message">
+            hove for few seconds and see a dynamically bound title
+        </span>
+    </div>
+    
+    <div id="app3">
+        <span v-if="seen">this is visible to you</span>
+        <span v-else-if>you can't see the true</span>
+    </div> -->
+
+    <div id="app4">
+        <ol>
+            <li v-for="todo in todos">{{todo.text}}</li>
+        </ol>
+    </div>
+
+    <div id="app5">
+        <p>{{message}}</p>
+        <button v-on:click="reverseMessage"> click here to reverse message</button>
+    </div>
+
+    <div id="app6">
+        <p>{{message}}</p>
+        <input v-model="message" />
+    </div>
+
+    <style>
+        html, body {
+            margin: 5px;
+            padding: 0;
+        }
+
+        body {
+            background-color: #f4f4f4;
+        }
+    </style>
+    <script src="index.js"></script>
+</body>
+</html>

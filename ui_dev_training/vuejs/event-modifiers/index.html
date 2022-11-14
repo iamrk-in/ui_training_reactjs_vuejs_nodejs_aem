@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My First Vue App</title>
+    <!-- <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script> -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.4.0/vue.js"></script>
+</head>
+<body>
+    <div id="em1">
+        <button v-on:click.once="buttonclickedonce" v-bind:style="styleobj"> click once </button>
+
+        <h4>Output: {{clicknum}}</h4>
+    
+        <br /> <br />
+    
+        <button v-on:click="buttonclicked" v-bind:style="styleobj"> click anytime </button>
+    
+        <h4>Output: {{clicknum1}}</h4>
+    </div>
+
+    <div id="em2">
+        <a href="http://www.google.com" v-on:click.prevent="clickme" target="_blank" v-bind:style="styleobj"> click me </a>
+    </div>
+    
+    <div id="em_key1">
+        <input type="text" v-on:keyup.enter="showinputvalue" v-bind:style="styleobj" placeholder="enter any name" />
+
+        <h3>Name: {{name}}</h3>
+    </div>
+
+    <style>
+        html, body {
+            margin: 5px;
+            padding: 0;
+        }
+
+        body {
+            background-color: #f4f4f4;
+        }
+    </style>
+    <script src="index.js"></script>
+</body>
+</html>
