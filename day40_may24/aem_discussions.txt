@@ -1,9 +1,0 @@
-1. created the maven project
-2. created the aem project
-3. walkthrough with ref., of wknd site
-4. created the custom project
-5. created the custom component
-6. inheritance & enhancement of component
-7. created the template configuration
-8. added details to template
-9. added the allowed components to template

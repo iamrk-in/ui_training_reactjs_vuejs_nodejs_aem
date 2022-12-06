@@ -1,4 +1,0 @@
-1. upload package
-2. create package
-3. ref., of wknd site
-4. assets

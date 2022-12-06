@@ -1,4 +1,0 @@
-.style3 {
-    font-family: inherit;
-    font-size: 20vh;
-}
